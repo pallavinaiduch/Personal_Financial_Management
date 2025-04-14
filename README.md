@@ -34,7 +34,17 @@ A smart web application that helps users manage their monthly expenses more effi
 
 ## Screenshots
 ![Screenshot](screenshots/Picture1.jpg)
-
+![Screenshot](screenshots/Picture2.jpg)
+![Screenshot](screenshots/Picture3.jpg)
+![Screenshot](screenshots/Picture4.jpg)
+![Screenshot](screenshots/Picture5.jpg)
+![Screenshot](screenshots/Picture6.jpg)
+![Screenshot](screenshots/Picture7.jpg)
+![Screenshot](screenshots/Picture8.jpg)
+![Screenshot](screenshots/Picture9.jpg)
+![Screenshot](screenshots/Picture10.jpg)
+![Screenshot](screenshots/Picture11.jpg)
+![Screenshot](screenshots/Picture12.jpg)
 ## 🧪 Setup Instructions
 
 1. Clone the Repository:

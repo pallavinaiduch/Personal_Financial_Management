@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FinanceAI - Empower Your Financial Journey</title>
+  <link rel="stylesheet" href="{{url_for('static',filename='styles.css')}}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="navbar">
+    <div class="logo">Finance<span>AI</span></div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button class="cta"><a href="/login">Get Started</a></button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Take Control of Your Finances</h1>
+      <p>Empower your financial future with AI-driven solutions designed to simplify budgeting, investments, and financial planning.</p>
+      <button class="cta"><a href="/register">Join Us Today</a></button>
+    </div>
+    <div class="hero-image">
+      <img src="https://images.unsplash.com/photo-1556745753-b2904692b3cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=700" alt="Hero Image">
+    </div>
+  </section>
+
+ <!-- Features Section with Cool Grid Layout -->
+<section id="features" class="features">
+    <h2>Our Features</h2>
+    <p>Discover the powerful tools that FinanceAI offers to help you manage your finances efficiently.</p>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <div class="feature-icon">
+          <img src="https://cdn0.iconfinder.com/data/icons/seo-smart-pack/128/grey_new_seo2-15-512.png" alt="Budgeting">
+        </div>
+        <h3>Smart Budgeting</h3>
+        <p>Automate your financial planning with AI-driven insights to stay on top of your expenses.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <img src="https://cdn2.iconfinder.com/data/icons/pixel-perfect-at-24px-volume-7/24/2197-1024.png" alt="Analytics">
+        </div>
+        <h3>Advanced Analytics</h3>
+        <p>Track and analyze your spending patterns to make informed decisions and optimize your savings.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <img src="https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_report_48px-512.png" alt="Reports">
+        </div>
+        <h3>Custom Reports</h3>
+        <p>Generate detailed reports with actionable insights tailored to your financial goals and strategies.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <img src="https://cdn4.iconfinder.com/data/icons/notification-and-alert/64/data_knowledge_details_facts_intelligence_insights-512.png" alt="Insights">
+        </div>
+        <h3>Real-Time Insights</h3>
+        <p>Get actionable insights on your financial health, updated in real time, directly in your dashboard.</p>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Pricing Section -->
+<section id="pricing" class="pricing">
+    <h2>Our Pricing Plans</h2>
+    <p>Choose a plan that works best for your financial journey.</p>
+    <div class="pricing-cards">
+      <div class="card">
+        <h3>Basic</h3>
+        <p class="price">$10/month</p>
+        <ul>
+          <li>Smart Budgeting</li>
+          <li>Advanced Analytics</li>
+          <li>Custom Reports</li>
+        </ul>
+        <button class="cta">Get Started</button>
+      </div>
+      <div class="card premium">
+        <h3>Premium</h3>
+        <p class="price">$25/month</p>
+        <ul>
+          <li>Everything in Basic</li>
+          <li>Priority Support</li>
+          <li>Investment Insights</li>
+        </ul>
+        <button class="cta">Get Started</button>
+      </div>
+      <div class="card">
+        <h3>Enterprise</h3>
+        <p class="price">Custom Pricing</p>
+        <ul>
+          <li>Custom Integrations</li>
+          <li>Dedicated Support</li>
+          <li>Advanced Analytics Suite</li>
+        </ul>
+        <button class="cta">Contact Us</button>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Testimonial Section -->
+  <section id="testimonials" class="testimonials">
+    <h2>What Our Users Say</h2>
+    <div class="testimonial-slider">
+      <div class="testimonial">
+        <p>"FinanceAI has revolutionized how I manage my finances. It's a game-changer!"</p>
+        <h4>- John Doe</h4>
+      </div>
+      <div class="testimonial">
+        <p>"The insights and reports are top-notch. I highly recommend it to everyone."</p>
+        <h4>- Sarah Lee</h4>
+      </div>
+      <div class="testimonial">
+        <p>"With FinanceAI, I've saved more and spent smarter. Love this tool!"</p>
+        <h4>- Emily Johnson</h4>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Get in Touch</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 FinanceAI. All Rights Reserved. Designed with ❤️.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

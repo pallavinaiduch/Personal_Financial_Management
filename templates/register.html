@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register - FinanceAI</title>
+  <link rel="stylesheet" href="{{url_for('static',filename='register.css')}}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Finance<span>AI</span></div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="/" class="top-button">Home</a></li>
+        <li><a href="/login" class="top-button">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="registration-section">
+    <div class="registration-container">
+      <h2>Create Your Account</h2>
+      <form action="/register" method="POST" onsubmit="return validateRegister(event)">
+        <div class="input-group">
+          <input type="text" name="username" placeholder="Username" id="regUsername" required>
+          <small class="error-message" id="usernameError"></small>
+        </div>
+        <div class="input-group">
+          <input type="email" name="email" placeholder="Email" id="regEmail" required>
+          <small class="error-message" id="regEmailError"></small>
+        </div>
+        <div class="input-group">
+          <input type="password" name="password" placeholder="Password" id="regPassword" required>
+          <small class="error-message" id="regPasswordError"></small>
+        </div>
+        <div class="input-group">
+          <input type="password" name="confirm_password" placeholder="Confirm Password" id="confirmPassword" required>
+          <small class="error-message" id="confirmPasswordError"></small>
+        </div>
+        <button type="submit" class="cta">Sign Up</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 FinanceAI. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

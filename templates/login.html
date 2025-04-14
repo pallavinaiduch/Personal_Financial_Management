@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - FinanceAI</title>
+  <link rel="stylesheet" href="{{url_for('static',filename='login.css')}}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Finance<span>AI</span></div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="/" class="top-button">Home</a></li>
+        <li><a href="/register" class="top-button">Sign Up</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="login-section">
+    <div class="login-container">
+      <h2>Login to Your Account</h2>
+      <div id="message">{{message}}</div>
+      <form action="#" method="POST" onsubmit="return validateLogin(event)">
+        <div class="input-group">
+          <input type="email" name="email" placeholder="Email" id="loginEmail" required>
+          <small class="error-message" id="emailError"></small>
+        </div>
+        <div class="input-group">
+          <input type="password" name="password" placeholder="Password" id="loginPassword" required>
+          <small class="error-message" id="passwordError"></small>
+        </div>
+        <button type="submit" class="cta">Login</button>
+      </form>
+      <div class="forgot-password">
+        <a href="#">Forgot Password?</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 FinanceAI. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

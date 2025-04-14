@@ -1,0 +1,199 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0d1117; /* Dark background for the whole page */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    opacity: 0;
+    animation: fadeIn 1s forwards; /* Animation for page load */
+}
+
+/* Navbar styles */
+.navbar {
+    width: 100%;
+    background-color: #1f1f1f;
+    padding: 1rem 3rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #00e7ff;
+}
+
+.navbar .logo span {
+  color: #6fdd5f;
+}
+
+/* Align nav-links to the top, straight under the logo */
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -20px; /* Moves the buttons closer to the logo */
+}
+
+.navbar .nav-links li {
+    margin-left: 2rem; /* Adjusted margin between buttons */
+}
+
+.navbar .nav-links li a {
+    color: #060606;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+/* Button Styling for Home and SignUp */
+.top-button {
+    background: linear-gradient(90deg, #6fdd5f, #00e7ff);
+    color: black;
+    padding: 0.5rem 1.5rem;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .top-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 15px rgba(0, 231, 255, 0.5);
+  }
+
+/* Login Section Styling */
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    padding-top: 80px; /* To avoid overlap with navbar */
+}
+
+/* Box Styling with Neon Effect */
+.login-container {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    width: 350px;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 255, 0, 0.7); /* Subtle shadow with neon glow */
+    text-align: center;
+    transform: scale(0.9);
+    animation: slideIn 0.8s forwards; /* Animation for box appearance */
+}
+
+/* Heading Styling */
+h2 {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+/* Input Styling */
+.input-group {
+    margin-bottom: 1.5rem;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #333;
+    border: 1px solid #555;
+    color: #fff;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    outline: none;
+    transition: 0.3s ease-in-out;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #25d366; /* Green border on focus */
+}
+
+/* Button Styling with Neon Effect */
+button.cta {
+    background: linear-gradient(90deg, #6fdd5f, #00e7ff);
+    color: black;
+    padding: 0.5rem 1.5rem;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  button.cta:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 15px rgba(0, 231, 255, 0.5);
+  }
+
+/* Forgot Password Link */
+.forgot-password {
+    margin-top: 1rem;
+}
+
+.forgot-password a {
+    color: #aaa;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    color: #25d366;
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1f1f1f;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Keyframe Animations */
+
+/* Fade-in effect for the whole page */
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+/* Slide-in effect for the login box */
+@keyframes slideIn {
+    from {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}

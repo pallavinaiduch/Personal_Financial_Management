@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rented House Expenses</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='form.css') }}">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Finance<span>AI</span></div>
+    </nav>
+    
+    <div class="form-container">
+        <h2>Rented House Expenses</h2>
+        <form action="/submit_rented" method="POST">
+            <div class="form-group">
+                <label for="income">Income:</label>
+                <input type="number" id="income" name="income" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="rent">Rent Amount:</label>
+                <input type="number" id="rent" name="rent" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="internet">Internet Bill:</label>
+                <input type="number" id="internet" name="internet" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="insurance">Insurances or EMIs:</label>
+                <input type="number" id="insurance" name="insurance" required>
+            </div>
+
+            <div class="form-group">
+                <label for="food">Food Expenses:</label>
+                <input type="number" id="food" name="food" required>
+            </div>
+
+            <div class="form-group">
+                <label for="electricity">Electricity Bill:</label>
+                <input type="number" id="electricity" name="electricity" required>
+            </div>
+
+            <div class="form-group">
+                <label for="personalCare">Personal Care:</label>
+                <input type="number" id="personalCare" name="personalCare" required>
+            </div>
+
+            <div class="form-group">
+                <label for="maintenance">Maintenance Charges:</label>
+                <input type="number" id="maintenance" name="maintenance" required>
+            </div>
+
+            <div class="form-group">
+                <label for="transport">Transport Cost:</label>
+                <input type="number" id="transport" name="transport" required>
+            </div>
+
+            <div class="form-group">
+                <label for="miscellaneous">Other Miscellaneous Expenses:</label>
+                <input type="number" id="miscellaneous" name="miscellaneous" required>
+            </div>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

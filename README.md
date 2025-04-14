@@ -33,19 +33,33 @@ A smart web application that helps users manage their monthly expenses more effi
 ---
 
 ## Screenshots
+## WEB INTERFACE
 ![Screenshot](screenshots/Picture1.jpg)
+## REGISTER PAGE
 ![Screenshot](screenshots/Picture2.jpg)
+## LOGIN PAGE
 ![Screenshot](screenshots/Picture3.jpg)
+## HOUSEING TYPE
 ![Screenshot](screenshots/Picture4.jpg)
+## OWN HOUSE FORM
 ![Screenshot](screenshots/Picture5.jpg)
+## RENTEND HOUSE FORM
 ![Screenshot](screenshots/Picture6.jpg)
+## GENERAL FORM
 ![Screenshot](screenshots/Picture7.jpg)
+## LOW SPENDER TYPE
 ![Screenshot](screenshots/Picture8.jpg)
+## AI GIVE THE SUGGESTION FOR LOW SPENDER
 ![Screenshot](screenshots/Picture9.jpg)
+## MEDIUM SPENDER TYPE
 ![Screenshot](screenshots/Picture10.jpg)
+## AI GIVE THE SUGGESTION FOR MEDIUM SPENDER
 ![Screenshot](screenshots/Picture11.jpg)
+## HIGH SPENDER TYPE
 ![Screenshot](screenshots/Picture12.jpg)
+## AI GIVE THE SUGGESTION FOR HIGH SPENDER
 ![Screenshot](screenshots/Picture13.jpg)
+======================
 ## 🧪 Setup Instructions
 
 1. Clone the Repository:

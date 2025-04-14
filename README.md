@@ -32,6 +32,9 @@ A smart web application that helps users manage their monthly expenses more effi
 
 ---
 
+## Screenshots
+![Screenshot](screenshots/Picture1.jpg)
+
 ## 🧪 Setup Instructions
 
 1. Clone the Repository:
